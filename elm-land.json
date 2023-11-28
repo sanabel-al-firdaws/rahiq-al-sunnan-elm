@@ -1,0 +1,54 @@
+{
+  "app": {
+    "elm": {
+      "development": {
+        "debugger": true
+      },
+      "production": {
+        "debugger": false
+      }
+    },
+    "env": [],
+    "html": {
+      "attributes": {
+        "html": {
+          "lang": "ar",
+          "dir": "rtl"
+        },
+        "head": {}
+      },
+      "title": "Elm Land",
+      "meta": [
+        {
+          "charset": "UTF-8"
+        },
+        {
+          "http-equiv": "X-UA-Compatible",
+          "content": "IE=edge"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1.0"
+        }
+      ],
+      "link": [
+        {
+          "rel": "stylesheet",
+          "href": "/main.css"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "https://cdn.jsdelivr.net/npm/daisyui@4.4.14/dist/full.min.css"
+        }
+      ],
+      "script": [
+        {
+          "src": "https://cdn.tailwindcss.com"
+        }
+      ],
+      "router": {
+        "useHashRouting": false
+      }
+    }
+  }
+}
